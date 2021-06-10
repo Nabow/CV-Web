@@ -11,26 +11,17 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-let prog = document.getElementById('progress');
 
-let body = document.body,
-    html = document.documentElement;
+let processScroll = () => {
+    let docElem = document.documentElement,
+        docBody = document.body,
+        scrollTop = docElem['scrollTop'] || docBody['scrollTop'],
+        scrollBottom = (docElem['scrollHeight'] || docBody['scrollHeight']) - window.innerHeight,
+        scrollPercent = scrollTop / scrollBottom * 100 + '%';
 
-let height = Math.max(
-    body.scrollHeight,
-    body.offsetHeight,
-    html.clientHeight,
-    html.scrollHeight,
-    html.offsetHeight
-);
+        console.log(scrollPercent);
 
-const setProgress = () => {
-    let scrollFromTop = (html.scrollTop || body.scrollTop) + html.clientHeight;
-    let width = (scrollFromTop / height) * 100 + '%';
+        document.getElementById('progress').style.setProperty('--scrollAmount', scrollPercent);
+}
 
-    prog.style.width = width;
-};
-
-window.addEventListener('scroll', setProgress);
-
-setProgress();
+document.addEventListener('scroll', processScroll);

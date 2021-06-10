@@ -2,7 +2,7 @@
   color: #000;
 }
 .transition-scroll{
-  transition: 0.5s;
+  transition: 0.2s;
 
 }
 #navbar{
@@ -274,12 +274,14 @@
 }
 
 .progress{
+  --scrollAmount: 0%;
   position: fixed;
   top:56px;
-  background-color: red;
-  height: 6px;
-  width: 100%;
+  background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);  
+  height: 10px;
+  width: var(--scrollAmount);
   z-index: 101;
+  border-radius: 0 0.5em 0.5em  0;
   /* transition: all ease-out 0.2s; */
 }
 
