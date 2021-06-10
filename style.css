@@ -270,6 +270,7 @@
 .moving{
   /* transition: 0.5; */
   animation: bounce 6s infinite;
+  font-size: 4rem;
 }
 
 .progress{
