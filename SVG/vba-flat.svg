@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{opacity:0.3;}
+	.st3{fill:#FFFFFF;}
+	.st4{opacity:0.15;fill:#231F20;}
+	.st5{font-family:'MyriadPro-Regular';}
+	.st6{font-size:50px;}
+	.st7{letter-spacing:2;}
+</style>
+<g>
+	<g>
+		<g>
+			<g>
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="200.9476" y1="325" x2="200.9476" y2="75">
+					<stop  offset="0" style="stop-color:#DBDCDD"/>
+					<stop  offset="0.1357" style="stop-color:#E0E1E2"/>
+					<stop  offset="0.5752" style="stop-color:#EDEDEE"/>
+					<stop  offset="1" style="stop-color:#F1F1F2"/>
+				</linearGradient>
+				<polygon class="st0" points="300.9,325 100.9,325 100.9,75 240.9,75 300.9,135 				"/>
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="200.9476" y1="155" x2="200.9476" y2="75">
+					<stop  offset="0" style="stop-color:#7FB439"/>
+					<stop  offset="1" style="stop-color:#BED630"/>
+				</linearGradient>
+				<polygon class="st1" points="240.9,75 100.9,75 100.9,155 300.9,155 300.9,135 				"/>
+				<g class="st2">
+					<polygon class="st3" points="241,135 301,135 241,75 					"/>
+				</g>
+			</g>
+			<path class="st4" d="M285.7,263.6l-0.6-29l-0.1,0.1l0.1-0.1l-34.6-16.5l-16.2,7l-0.4-19.5l-34.6-15.9l-34.1,14.2l-0.1,0v19.6
+				l-14.8-7l-34.1,14.8l0.8,0.4l-0.8-0.4v27.9l35.8,19.3v0h0l23.1-11.4l28.6,15.9v0l27.3-14.1l21,11.3v0L285.7,263.6z M282.3,261.9
+				L255,275.5v-23.9l27.3-14.2V261.9z M198.7,192.5l29.6,13.6l-26.7,13.6l-30.7-15.3L198.7,192.5z M231.1,209v23.9l-1.4,0.7
+				l-3.9-1.8l-3.3-1.5l-17.7-8.1L231.1,209z M168,207.3l31,14.9l-19.4,8.1l-11.6-5.5V207.3z M150.9,273.8l-31.8-17.1v-22.2
+				l31.8,15.4V273.8z M121.4,231.7l28.5-11.9l15.3,7.1l2.8,1.3l7.9,3.7l-2.1,0.9l-3.9,1.6l-1.9,0.8l0.1,0v4.1l-15.4,7.8L121.4,231.7
+				z M154.9,273.8l-0.6-23.9l13.7-7.1V263l4,2.2L154.9,273.8z M202.7,278.4l-24.2-13l-3.2-1.7l-4.4-2.4v-22.7l1.1,0.5l0.6,0.3
+				l1.1,0.5l8.2,4l3.5,1.7l17.4,8.4V278.4z M203.8,251.1l-1.4-0.7l-1.4-0.7l0,0l-15.7-7.6l-3.5-1.7l-4.8-2.3l-0.1-0.1l-1-0.5
+				l-0.4-0.2l-2-1l-0.4-0.2l0.2-0.1l3.7-1.6l0.2-0.1l6-2.5l16.6-7l0.6-0.3l0.5-0.2l0.6-0.3l2.2,1l14.5,6.7l7.5,3.5l3.5,1.6l1.8,0.8
+				l-2,1l-0.1,0l-2.1,1l-7.7,3.7l-2.8,1.4L203.8,251.1z M232.3,265.5l-3.8,1.8l-21.8,10.5l-0.6-23.9l10.2-5.1l2.8-1.4l11.3-5.6h0
+				l2-1h0l0.1-0.1l0.8-0.4l0,0.8v0.1l0,2l0.5,21.5L232.3,265.5z M251,275.5l-16.2-8.7l2-1v-21.1l14.2,6.9V275.5z M236.8,240.8v-4
+				l-3.5-1.6l1.3-0.6l-0.1-6.5l15.5-6.6l29.6,13.7l-26.7,13.6L236.8,240.8z"/>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 118.9431 132.0005)" class="st3 st5 st6 st7">VBA</text>
+	</g>
+</g>
+</svg>

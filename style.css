@@ -1,0 +1,283 @@
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+.transition-scroll{
+  transition: 0.5s;
+
+}
+#navbar{
+  z-index: 100;
+}
+
+
+.text-green {
+  color: #31EF2B;
+}
+
+.text-light-green {
+  color: #34E2A7;
+}
+
+.text-cyan{
+  color: #12c2e9;
+}
+
+.text-pink{
+  color: #c471ed;
+}
+
+.text-red{
+  color: #f64f59;
+}
+
+.text-gradient-grey{
+  background: linear-gradient(45deg, #414345, #6c757d );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.text-gradient {
+  background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-bottom-gradient {
+  border-bottom: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);
+}
+
+
+.icon-gradient{
+  color: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);
+}
+
+
+.hero-bg{
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 1)), fixed url('img/developpeur-web.jpg');
+  
+}
+.svg-gradiant{
+  fill: linear-gradient(to right, #34E2A7 30%, #2DF967 60%, #09ff00 70%);
+}
+
+.card-visibility {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.card-visibility:hover {
+  opacity: 1;
+  background: linear-gradient(rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.9));
+}
+
+.HTML-bg {
+  background: center / 90% no-repeat url('svg/Minify/HTML5-flat.svg');
+  /* transition: 11.2s ease; */
+}
+.HTML-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/HTML5-3d.svg');
+}
+
+
+.CSS-bg {
+  background: center / 90% no-repeat url('svg/Minify/css3-flat.svg');
+}
+.CSS-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/css3-3d.svg');
+}
+
+
+.sass-bg {
+  background: center / 90% no-repeat url('svg/Minify/sass-flat.svg');
+}
+.sass-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/sass-3d.svg');
+}
+
+
+.PHP-bg {
+  background: center / 90% no-repeat url('svg/Minify/PHP-flat.svg');
+}
+.PHP-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/PHP-3d.svg');
+}
+
+
+.mysql-bg {
+  background: center / 90% no-repeat url('svg/Minify/mysql-flat.svg');
+}
+.mysql-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/mysql-3d.svg');
+}
+
+
+.javascript-bg {
+  background: center / 90% no-repeat url('svg/Minify/javascript-flat.svg');
+}
+.javascript-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/javascript-3d.svg');
+}
+
+
+.bootstrap-bg {
+  background: center / 90% no-repeat url('svg/Minify/bootstrap-flat.svg');
+}
+.bootstrap-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/bootstrap-3d.svg');
+}
+
+
+.git-bg {
+  background: center / 90% no-repeat url('svg/Minify/git-flat.svg');
+}
+.git-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/git-3d.svg');
+}
+
+
+.wordpress-bg {
+  background: center / 90% no-repeat url('svg/Minify/wordpress-flat.svg');
+}
+.wordpress-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/wordpress-3d.svg');
+}
+
+
+.github-bg {
+  background: center / 90% no-repeat url('svg/Minify/github-flat.svg');
+}
+.github-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/github-3d.svg');
+}
+
+
+
+.elementor-bg {
+  background: center / 90% no-repeat url('svg/Minify/elementor-flat.svg');
+}
+.elementor-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/elementor-3d.svg');
+}
+
+
+.divi-bg {
+  background: center / 90% no-repeat url('svg/Minify/divi-flat.svg');
+}
+.divi-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/divi-3d.svg');
+}
+
+
+.woocommerce-bg {
+  background: center / 90% no-repeat url('svg/Minify/woocommerce-flat.svg');
+}
+.woocommerce-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/woocommerce-3d.svg');
+}
+
+
+.illustrator-bg {
+  background: center / 90% no-repeat url('svg/Minify/illustrator-flat.svg');
+}
+.illustrator-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/illustrator-3d.svg');
+}
+
+
+.photoshop-bg {
+  background: center / 90% no-repeat url('svg/Minify/photoshop-flat.svg');
+}
+.photoshop-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/photoshop-3d.svg');
+}
+
+
+.indesign-bg {
+  background: center / 90% no-repeat url('svg/Minify/indesign-flat.svg');
+}
+.indesign-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/indesign-3d.svg');
+}
+
+
+.premiere-pro-bg {
+  background: center / 90% no-repeat url('svg/Minify/premiere-pro-flat.svg');
+}
+.premiere-pro-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/premiere-pro-3d.svg');
+}
+
+
+.after-effects-bg {
+  background: center / 90% no-repeat url('svg/Minify/after-effects-flat.svg');
+}
+.after-effects-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/after-effects-3d.svg');
+}
+
+
+.vba-bg {
+  background: center / 90% no-repeat url('svg/Minify/vba-flat.svg');
+}
+.vba-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/vba-3d.svg');
+}
+
+
+.access-bg {
+  background: center / 90% no-repeat url('svg/Minify/access-flat.svg');
+}
+.access-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/access-3d.svg');
+}
+
+
+.excel-bg {
+  background: center / 90% no-repeat url('svg/Minify/excel-flat.svg');
+}
+.excel-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/excel-3d.svg');
+}
+
+
+.power-bi-bg {
+  background: center / 90% no-repeat url('svg/Minify/power-bi-flat.svg');
+}
+.power-bi-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/power-bi-3d.svg');
+}
+
+
+.sharepoint-bg {
+  background: center / 90% no-repeat url('svg/Minify/sharepoint-flat.svg');
+}
+.sharepoint-bg:hover {
+  background: center / 90% no-repeat url('svg/Minify/sharepoint-3d.svg');
+}
+
+@keyframes bounce{0%, 100%{-webkit-transform:translateY(-20px);transform:translateY(-20px);}
+33%{-webkit-transform:translateX(20px);transform:translateX(20px);}
+66%{-webkit-transform:translateX(-20px);transform:translateX(-20px);}
+}
+
+.moving{
+  /* transition: 0.5; */
+  animation: bounce 6s infinite;
+}
+
+.progress{
+  position: fixed;
+  top:56px;
+  background-color: red;
+  height: 6px;
+  width: 100%;
+  z-index: 101;
+  /* transition: all ease-out 0.2s; */
+}
