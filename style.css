@@ -282,3 +282,9 @@
   z-index: 101;
   /* transition: all ease-out 0.2s; */
 }
+
+.icon-learn{
+  height: auto;
+  max-width: 6rem;
+  object-fit: contain;
+}
