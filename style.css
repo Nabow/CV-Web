@@ -78,188 +78,188 @@
 }
 
 .HTML-bg {
-  background: center / 90% no-repeat url('svg/Minify/HTML5-flat.svg');
+  background: center / 90% no-repeat url('svg/HTML5-flat.svg');
   /* transition: 11.2s ease; */
 }
 .HTML-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/HTML5-3d.svg');
+  background: center / 90% no-repeat url('svg/HTML5-3d.svg');
 }
 
 
 .CSS-bg {
-  background: center / 90% no-repeat url('svg/Minify/css3-flat.svg');
+  background: center / 90% no-repeat url('svg/css3-flat.svg');
 }
 .CSS-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/css3-3d.svg');
+  background: center / 90% no-repeat url('svg/css3-3d.svg');
 }
 
 
 .sass-bg {
-  background: center / 90% no-repeat url('svg/Minify/sass-flat.svg');
+  background: center / 90% no-repeat url('svg/sass-flat.svg');
 }
 .sass-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/sass-3d.svg');
+  background: center / 90% no-repeat url('svg/sass-3d.svg');
 }
 
 
 .PHP-bg {
-  background: center / 90% no-repeat url('svg/Minify/PHP-flat.svg');
+  background: center / 90% no-repeat url('svg/PHP-flat.svg');
 }
 .PHP-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/PHP-3d.svg');
+  background: center / 90% no-repeat url('svg/PHP-3d.svg');
 }
 
 
 .mysql-bg {
-  background: center / 90% no-repeat url('svg/Minify/mysql-flat.svg');
+  background: center / 90% no-repeat url('svg/mysql-flat.svg');
 }
 .mysql-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/mysql-3d.svg');
+  background: center / 90% no-repeat url('svg/mysql-3d.svg');
 }
 
 
 .javascript-bg {
-  background: center / 90% no-repeat url('svg/Minify/javascript-flat.svg');
+  background: center / 90% no-repeat url('svg/javascript-flat.svg');
 }
 .javascript-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/javascript-3d.svg');
+  background: center / 90% no-repeat url('svg/javascript-3d.svg');
 }
 
 
 .bootstrap-bg {
-  background: center / 90% no-repeat url('svg/Minify/bootstrap-flat.svg');
+  background: center / 90% no-repeat url('svg/bootstrap-flat.svg');
 }
 .bootstrap-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/bootstrap-3d.svg');
+  background: center / 90% no-repeat url('svg/bootstrap-3d.svg');
 }
 
 
 .git-bg {
-  background: center / 90% no-repeat url('svg/Minify/git-flat.svg');
+  background: center / 90% no-repeat url('svg/git-flat.svg');
 }
 .git-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/git-3d.svg');
+  background: center / 90% no-repeat url('svg/git-3d.svg');
 }
 
 
 .wordpress-bg {
-  background: center / 90% no-repeat url('svg/Minify/wordpress-flat.svg');
+  background: center / 90% no-repeat url('svg/wordpress-flat.svg');
 }
 .wordpress-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/wordpress-3d.svg');
+  background: center / 90% no-repeat url('svg/wordpress-3d.svg');
 }
 
 
 .github-bg {
-  background: center / 90% no-repeat url('svg/Minify/github-flat.svg');
+  background: center / 90% no-repeat url('svg/github-flat.svg');
 }
 .github-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/github-3d.svg');
+  background: center / 90% no-repeat url('svg/github-3d.svg');
 }
 
 
 
 .elementor-bg {
-  background: center / 90% no-repeat url('svg/Minify/elementor-flat.svg');
+  background: center / 90% no-repeat url('svg/elementor-flat.svg');
 }
 .elementor-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/elementor-3d.svg');
+  background: center / 90% no-repeat url('svg/elementor-3d.svg');
 }
 
 
 .divi-bg {
-  background: center / 90% no-repeat url('svg/Minify/divi-flat.svg');
+  background: center / 90% no-repeat url('svg/divi-flat.svg');
 }
 .divi-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/divi-3d.svg');
+  background: center / 90% no-repeat url('svg/divi-3d.svg');
 }
 
 
 .woocommerce-bg {
-  background: center / 90% no-repeat url('svg/Minify/woocommerce-flat.svg');
+  background: center / 90% no-repeat url('svg/woocommerce-flat.svg');
 }
 .woocommerce-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/woocommerce-3d.svg');
+  background: center / 90% no-repeat url('svg/woocommerce-3d.svg');
 }
 
 
 .illustrator-bg {
-  background: center / 90% no-repeat url('svg/Minify/illustrator-flat.svg');
+  background: center / 90% no-repeat url('svg/illustrator-flat.svg');
 }
 .illustrator-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/illustrator-3d.svg');
+  background: center / 90% no-repeat url('svg/illustrator-3d.svg');
 }
 
 
 .photoshop-bg {
-  background: center / 90% no-repeat url('svg/Minify/photoshop-flat.svg');
+  background: center / 90% no-repeat url('svg/photoshop-flat.svg');
 }
 .photoshop-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/photoshop-3d.svg');
+  background: center / 90% no-repeat url('svg/photoshop-3d.svg');
 }
 
 
 .indesign-bg {
-  background: center / 90% no-repeat url('svg/Minify/indesign-flat.svg');
+  background: center / 90% no-repeat url('svg/indesign-flat.svg');
 }
 .indesign-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/indesign-3d.svg');
+  background: center / 90% no-repeat url('svg/indesign-3d.svg');
 }
 
 
 .premiere-pro-bg {
-  background: center / 90% no-repeat url('svg/Minify/premiere-pro-flat.svg');
+  background: center / 90% no-repeat url('svg/premiere-pro-flat.svg');
 }
 .premiere-pro-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/premiere-pro-3d.svg');
+  background: center / 90% no-repeat url('svg/premiere-pro-3d.svg');
 }
 
 
 .after-effects-bg {
-  background: center / 90% no-repeat url('svg/Minify/after-effects-flat.svg');
+  background: center / 90% no-repeat url('svg/after-effects-flat.svg');
 }
 .after-effects-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/after-effects-3d.svg');
+  background: center / 90% no-repeat url('svg/after-effects-3d.svg');
 }
 
 
 .vba-bg {
-  background: center / 90% no-repeat url('svg/Minify/vba-flat.svg');
+  background: center / 90% no-repeat url('svg/vba-flat.svg');
 }
 .vba-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/vba-3d.svg');
+  background: center / 90% no-repeat url('svg/vba-3d.svg');
 }
 
 
 .access-bg {
-  background: center / 90% no-repeat url('svg/Minify/access-flat.svg');
+  background: center / 90% no-repeat url('svg/access-flat.svg');
 }
 .access-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/access-3d.svg');
+  background: center / 90% no-repeat url('svg/access-3d.svg');
 }
 
 
 .excel-bg {
-  background: center / 90% no-repeat url('svg/Minify/excel-flat.svg');
+  background: center / 90% no-repeat url('svg/excel-flat.svg');
 }
 .excel-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/excel-3d.svg');
+  background: center / 90% no-repeat url('svg/excel-3d.svg');
 }
 
 
 .power-bi-bg {
-  background: center / 90% no-repeat url('svg/Minify/power-bi-flat.svg');
+  background: center / 90% no-repeat url('svg/power-bi-flat.svg');
 }
 .power-bi-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/power-bi-3d.svg');
+  background: center / 90% no-repeat url('svg/power-bi-3d.svg');
 }
 
 
 .sharepoint-bg {
-  background: center / 90% no-repeat url('svg/Minify/sharepoint-flat.svg');
+  background: center / 90% no-repeat url('svg/sharepoint-flat.svg');
 }
 .sharepoint-bg:hover {
-  background: center / 90% no-repeat url('svg/Minify/sharepoint-3d.svg');
+  background: center / 90% no-repeat url('svg/sharepoint-3d.svg');
 }
 
 @keyframes bounce{0%, 100%{-webkit-transform:translateY(-20px);transform:translateY(-20px);}
