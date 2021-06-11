@@ -56,8 +56,9 @@
                 <div class="navbar-nav me-4">
                     <a class="nav-link active text-end" aria-current="page" href="#presentation">Présentation</a>
                     <a class="nav-link text-end" href="#competences">Compétences</a>
-                    <a class="nav-link text-end" href="#">Ma valeur ajoutée</a>
-                    <a class="nav-link text-end" href="#">Projets réalisés</a>
+                    <a class="nav-link text-end" href="#value">Ma valeur ajoutée</a>
+                    <a class="nav-link text-end" href="#projects">Projets réalisés</a>
+                    <a class="nav-link text-end text-gradient" href="mailto:rdefrob@gmail.com">Contact</a>
                 </div>
             </div>
         </nav>
@@ -71,7 +72,7 @@
 
     <!-- HERO -->
     <div class="position-relative overflow-hidden p-3 p-md-5 text-center hero-bg " id="accueil">
-        <div class="col-md-5  mx-auto my-5">
+        <div class="col-md-5  mx-auto mt-5">
             <img src="SVG/portrait-raphael.svg" alt="Raphael Huet de Froberville" width="30%" height="30%">
             <h1><span class="display-4 fw-normal text-light">Raphael <br><span class="fs-1">Huet de Froberville </span>
                 </span><br>
@@ -87,100 +88,99 @@
 
 
     <!-- DESCRIPTION -->
-    <h2 class="pb-2 pt-5 border-bottom-gradient text-gradient h1 fw-bold text-uppercase container" id="presentation">
-        <span class="text-gradient">Présentation</span></h2>
+    <div id="presentation" class="py-5">
+        <h2 class="pb-2  border-bottom-gradient text-gradient h1 fw-bold text-uppercase container">
+            <span class="text-gradient">Présentation</span></h2>
 
-    <div class="container px-4 py-5" id="icon-grid">
-        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-4 pb-5">
-            <div class="col d-flex align-items-start">
-                <!-- <svg class="bi icon-gradient flex-shrink-0 me-3" width="3em" height="3em">
-                    <use xlink:href="SVG/google/sprite.svg#face">
-                </svg> -->
-                <span class="material-icons-outlined text-gradient me-3 fs-1">face</span>
-                <div>
-                    <h2 class="fw-bold mb-0 h4 pb-3">Description</h2>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><b>6 ans</b> je tue le PC de mon père</li>
-                        <li class="list-group-item"><b>12 ans</b> j'écris mes premières lignes de code</li>
-                        <li class="list-group-item"><b>16 ans</b> je monte
-                            mon 1<sup>er</sup> PC</li>
-                        <li class="list-group-item"><b>20 ans</b> je créer mon 1<sup>er</sup> logiciel</li>
-                        <li class="list-group-item"><b>28 ans</b> j'en fais mon métier</li>
-                    </ul>
+        <div class="container px-4 py-5" id="icon-grid">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-5 pb-5">
+                <div class="col d-flex align-items-start">
+                    <span class="material-icons-outlined text-gradient me-3 fs-1">face</span>
+                    <div class="flex-grow-1">
+                        <h2 class="fw-bold mb-0 h4 pb-3">Description</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><b>6 ans</b> je tue le PC de mon père</li>
+                            <li class="list-group-item"><b>12 ans</b> j'écris mes premières lignes de code</li>
+                            <li class="list-group-item"><b>16 ans</b> je monte
+                                mon 1<sup>er</sup> PC</li>
+                            <li class="list-group-item"><b>20 ans</b> je créer mon 1<sup>er</sup> logiciel</li>
+                            <li class="list-group-item"><b>28 ans</b> j'en fais mon métier</li>
+                        </ul>
 
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <span class="material-icons-outlined text-gradient me-3 fs-1">auto_awesome</span>
+                    <div class="flex-grow-1">
+                        <h3 class="fw-bold mb-0 h4 pb-3">Soft Skills</h3>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Tenace</strong></li>
+                            <li class="list-group-item"><strong>Joyeux</strong> <i>(même sobre)</i></li>
+                            <li class="list-group-item">Aime travailler en <strong>équipe</strong></li>
+                            <li class="list-group-item">Aime <strong>rendre service</strong></li>
+                            <li class="list-group-item"><strong>Autonome</strong></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="col d-flex align-items-start">
-                <span class="material-icons-outlined text-gradient me-3 fs-1">auto_awesome</span>
-                <div>
-                    <h3 class="fw-bold mb-0 h4 pb-3">Soft Skills</h3>
-
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Tenace</strong></li>
-                        <li class="list-group-item"><strong>Joyeux</strong> <i>(même sobre)</i></li>
-                        <li class="list-group-item">Aime travailler en <strong>équipe</strong></li>
-                        <li class="list-group-item">Aime <strong>rendre service</strong></li>
-                        <li class="list-group-item"><strong>Autonome</strong></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 ">
-            <div class="col d-flex align-items-start ">
-                <span class="material-icons-outlined text-gradient me-3 fs-1">room</span>
-                <div>
-                    <h3 class="fw-bold mb-0 h4 pb-3">Lieu de vie</h3>
-                    <p>Au Pays Basque dans la magnifique ville d'<b>Anglet</b>.</p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 ">
+                <div class="col d-flex align-items-start ">
+                    <span class="material-icons-outlined text-gradient me-3 fs-1">room</span>
+                    <div>
+                        <h3 class="fw-bold mb-0 h4 pb-3">Lieu de vie</h3>
+                        <p>Au Pays Basque dans la magnifique ville d'<b>Anglet</b>.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <span class="material-icons-outlined text-gradient me-3 fs-1">sports_handball</span>
-                <div>
-                    <h3 class="fw-bold mb-0 h4 pb-3">Passions</h3>
-                    <p>Escalade, informatique, menuiserie...<br><span class="fw-lighter">Fautte pas que je perde mes
-                            doigts</span></p>
+                <div class="col d-flex align-items-start">
+                    <span class="material-icons-outlined text-gradient me-3 fs-1">sports_handball</span>
+                    <div>
+                        <h3 class="fw-bold mb-0 h4 pb-3">Passions</h3>
+                        <p>Escalade, informatique, menuiserie...<br><span class="fw-lighter">Fautte pas que je perde mes
+                                doigts</span></p>
+                    </div>
                 </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <span class="material-icons-outlined text-gradient me-3 fs-1">child_care</span>
-                <div>
-                    <h3 class="fw-bold mb-0 h4 pb-3">Situation</h3>
-                    <p>Agé de 29 ans, je suis marié et papa de deux petits "anges" 😈</p>
+                <div class="col d-flex align-items-start">
+                    <span class="material-icons-outlined text-gradient me-3 fs-1">child_care</span>
+                    <div>
+                        <h3 class="fw-bold mb-0 h4 pb-3">Situation</h3>
+                        <p>Agé de 29 ans, je suis marié et papa de deux petits "anges" 😈</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <span class="material-icons-outlined text-gradient me-3 fs-1">self_improvement</span>
+                <div class="col d-flex align-items-start">
+                    <span class="material-icons-outlined text-gradient me-3 fs-1">self_improvement</span>
 
-                <div>
-                    <h3 class="fw-bold mb-0 h4 pb-3">Ma Philosophie</h3>
-                    <strong>Apprendre une chose nouvelle tous les jours.</strong>
-                    <p>Nous pourrions apprendre à nous connaitre aujourd'hui par exemple.</p>
+                    <div>
+                        <h3 class="fw-bold mb-0 h4 pb-3">Ma Philosophie</h3>
+                        <strong>Apprendre une chose nouvelle tous les jours.</strong>
+                        <p>Nous pourrions apprendre à nous connaitre aujourd'hui par exemple.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <span class="material-icons-outlined text-gradient me-3 fs-1">send</span>
+                <div class="col d-flex align-items-start">
+                    <span class="material-icons-outlined text-gradient me-3 fs-1">send</span>
 
-                <div>
-                    <h3 class="fw-bold mb-0 h4 pb-3">M'écrire</h3>
-                    <p><a href="mailto:rdefrob@gmail.com" class="text-muted">rdefrob@gmail.com</a></p>
+                    <div>
+                        <h3 class="fw-bold mb-0 h4 pb-3">M'écrire</h3>
+                        <p><a href="mailto:rdefrob@gmail.com" class="text-muted">rdefrob@gmail.com</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <span class="material-icons-outlined text-gradient me-3 fs-1">local_phone</span>
+                <div class="col d-flex align-items-start">
+                    <span class="material-icons-outlined text-gradient me-3 fs-1">local_phone</span>
 
-                <div>
-                    <h3 class="fw-bold mb-0 h4 pb-3">M'appeler</h3>
-                    <p><a class="text-muted" href="tel:+33675455516">06 75 45 55 16</a> <br>Je
-                        suis disponible à tous moments, sauf quand je ne
-                        peux pas répondre 😜</p>
+                    <div>
+                        <h3 class="fw-bold mb-0 h4 pb-3">M'appeler</h3>
+                        <p><a class="text-muted" href="tel:+33675455516">06 75 45 55 16</a> <br>Je
+                            suis disponible à tous moments, sauf quand je ne
+                            peux pas répondre 😜</p>
+                    </div>
                 </div>
             </div>
+
         </div>
 
     </div>
-
 
 
 
@@ -189,11 +189,11 @@
 
 
 
-
-    <div class="container-fluid px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom-gradient h1 fw-bold text-uppercase container text-gradient " id="competences">
+    <!-- COMPETENCES -->
+    <div class="container-fluid px-4 py-5" id="competences">
+        <h2 class="pb-2 border-bottom-gradient h1 fw-bold text-uppercase container text-gradient ">
             <span class="text-gradient">Compétences</span></h2>
-
+            <p class="text-center fw-light">Je vais essayer ci dessous de vous indiquer un niveau niveau de maîtrise des différents languages/logigiels. <br>Mais il est très difficile d'estimer pour moi le chemin restant à parcourir alors que je en suis pas arrivé au bout.</p>
 
         <p class="text-center mt-4 mb-0">
 
@@ -202,7 +202,7 @@
         </p>
         <h3 class="text-gradient-grey text-uppercase fw-bold  text-center ">
             Programmation / FrameWork / Builder</h3>
-            <hr class="w-50 mx-auto">
+        <hr class="w-50 mx-auto">
 
         <div
             class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 align-items-stretch g-4 py-5">
@@ -217,7 +217,7 @@
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
 
-                                <small>Maitrise à 90%</small>
+                                <small>Maitrise à 80%</small>
                             </li>
                         </ul>
                     </div>
@@ -236,7 +236,7 @@
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
-                                <small>Maitrise à 80%</small>
+                                <small>Maitrise à 70%</small>
                             </li>
                         </ul>
                     </div>
@@ -269,17 +269,20 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">PHP</h4>
-                        <p>J'ai eu l'occasion de coder un simili blog à la main en PHP. Il me reste à finir de maîtriser
+                        <p>J'ai eu l'occasion de coder un simili blog à la main en PHP. Il me reste à finir de
+                            maîtriser
                             le PHP en orienté Objet</p>
                         <p>
-                            <a href="http://gbaf.raphael-huet-de-froberville.fr/connect.php" class="text-light">Lien
+                            <a target="_blank" href="http://gbaf.raphael-huet-de-froberville.fr/connect.php"
+                                class="text-light">Lien
                                 vers le projet</a><br>
-                            <a href="https://github.com/Nabow/GBAF-extranet" class="text-light">Lien vers GitHub</a>
+                            <a target="_blank" href="https://github.com/Nabow/GBAF-extranet" class="text-light">Lien
+                                vers GitHub</a>
                         </p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
-                                <small>Maitrise à 70%</small>
+                                <small>Maitrise à 60%</small>
                             </li>
                         </ul>
                     </div>
@@ -293,14 +296,15 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">MySQL</h4>
-                        <p>Je connais le language SQL et je l'ai mis en pratique dans un projet PHP et dans un logiciel
+                        <p>Je connais le language SQL et je l'ai mis en pratique dans un projet PHP et dans un
+                            logiciel
                             fonctionnant sous Access</p>
 
 
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
-                                <small>Maitrise à 80%</small>
+                                <small>Maitrise à 70%</small>
                             </li>
                         </ul>
                     </div>
@@ -315,7 +319,8 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">JavaScript</h4>
-                        <p>Pour l'instant je n'ai pas eu encore la chance de travailler sur un gros projet JavaScript,
+                        <p>Pour l'instant je n'ai pas eu encore la chance de travailler sur un gros projet
+                            JavaScript,
                             mais c'est un language avec lequel je suis assez à l'aise</p>
 
 
@@ -336,7 +341,8 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">BootStrap</h4>
-                        <p>Ce site est codé avec BootStrap et c'est la 1<sup>ère</sup> fois que je l'utilise. <br>On est
+                        <p>Ce site est codé avec BootStrap et c'est la 1<sup>ère</sup> fois que je l'utilise. <br>On
+                            est
                             vraiment sur une logique différente par rapport au CSS habituel mais je trouve ça
                             intéressant.
                         </p>
@@ -360,7 +366,8 @@
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">GitHub</h4>
                         <p>Certains de mes projets sont en ligne mais la plupart sont en local.</p>
-                        <p><a href="https://github.com/Nabow" class="text-light">Compte GitHub</a></p>
+                        <p><a target="_blank" href="https://github.com/Nabow" class="text-light">Compte GitHub</a>
+                        </p>
 
 
                         <ul class="d-flex list-unstyled mt-auto">
@@ -380,7 +387,8 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">Git</h4>
-                        <p>La pluspart de mes projets sont "Gités" et j'utilise toutes les fonctionnalités de Git. Par
+                        <p>La pluspart de mes projets sont "Gités" et j'utilise toutes les fonctionnalités de Git.
+                            Par
                             contre je n'ai jamais eu l'occasion de travailler en équipe avec Git</p>
 
 
@@ -408,7 +416,7 @@
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
-                                <small>Maitrise à 90%</small>
+                                <small>Maitrise à 80%</small>
                             </li>
                         </ul>
                     </div>
@@ -474,6 +482,27 @@
                 </div>
             </div>
 
+
+            <div class="col">
+                <div
+                    class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg google-bg">
+
+                    <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility ">
+                        <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">SEO</h4>
+                        <p>J'ai beaucoup travaillé le SEO avec ma femme qui est une pointure dans ce domaine là</p>
+                        <p>Sans avoir la prétention d'avoir son niveau, ont peut dire que je me défend sur le sujet</p>
+
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="d-flex align-items-center ms-auto">
+                                <span class="material-icons-outlined me-2">trending_up</span>
+                                <small>Maitrise à 60%</small>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
 
 
@@ -493,7 +522,7 @@
         </p>
         <h3 class="text-gradient-grey text-uppercase fw-bold  text-center ">
             Graphisme</h3>
-            <hr class="w-50 mx-auto">
+        <hr class="w-50 mx-auto">
 
         <div
             class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 align-items-stretch g-4 py-5">
@@ -526,12 +555,13 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">Photoshop</h4>
-                        <p>J'arrive à faire toutes les retouches photos que je désire, mais je n'ai pas encore un niveau
+                        <p>J'arrive à faire toutes les retouches photos que je désire, mais je n'ai pas encore un
+                            niveau
                             professionnel</p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
-                                <small>Maitrise à 70%</small>
+                                <small>Maitrise à 60%</small>
                             </li>
                         </ul>
                     </div>
@@ -545,12 +575,13 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">Indesign</h4>
-                        <p>J'ai réalisé des cartes de visite, des CV, des cartes de voeux et autres supports imprimables
+                        <p>J'ai réalisé des cartes de visite, des CV, des cartes de voeux et autres supports
+                            imprimables
                         </p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
-                                <small>Maitrise à 80%</small>
+                                <small>Maitrise à 70%</small>
                             </li>
                         </ul>
                     </div>
@@ -565,7 +596,8 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">Premiere Pro</h4>
-                        <p>J'ai fais 2 montages vidéos mais il me reste encore beaucoup à apprendre, notammment sur les
+                        <p>J'ai fais 2 montages vidéos mais il me reste encore beaucoup à apprendre, notammment sur
+                            les
                             formats de vidéo</p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
@@ -585,12 +617,13 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">After Effects</h4>
-                        <p>J'ai eu l'occasion de faire une animation de SVG avec. Je compte monter en puissance dessus
+                        <p>J'ai eu l'occasion de faire une animation de SVG avec. Je compte monter en puissance
+                            dessus
                             d'ici la fin de l'année</p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
-                                <small>Maitrise à 40%</small>
+                                <small>Maitrise à 30%</small>
                             </li>
                         </ul>
                     </div>
@@ -612,7 +645,7 @@
         </p>
         <h3 class="text-gradient-grey text-uppercase fw-bold  text-center ">
             Office 365 / Data</h3>
-            <hr class="w-50 mx-auto">
+        <hr class="w-50 mx-auto">
 
         <div
             class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 align-items-stretch g-4 py-5">
@@ -624,7 +657,8 @@
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">VBA</h4>
                         <p>C'est avec VBA que je me suis initié à la programmation</p>
-                        <p>J'ai encore beaucoup de petits programmes que j'ai développé qui servent dans les entreprises
+                        <p>J'ai encore beaucoup de petits programmes que j'ai développé qui servent dans les
+                            entreprises
                             dans lesquelles je suis passé</p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
@@ -643,7 +677,8 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">Access</h4>
-                        <p>J'ai crée un logiciel de gestion des réparations dans mon ancien travail avec un envoi de SMS
+                        <p>J'ai crée un logiciel de gestion des réparations dans mon ancien travail avec un envoi de
+                            SMS
                             automatique à la fin de la réparation</p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
@@ -682,12 +717,12 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">Power Bi</h4>
-                        <p>Ce logiciel fait tomber Excel dans l'age de pierre sur la création et le rafraichissement de
-                            tableaux de bord</p>
+                        <p>Ce logiciel fait tomber Excel dans l'age de pierre sur la création et le rafraichissement de tableaux de bord.</p>
+                        <p>J'ai crée un tableau de bord </p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
-                                <small>Maitrise à 90%</small>
+                                <small>Maitrise à 80%</small>
                             </li>
                         </ul>
                     </div>
@@ -701,13 +736,13 @@
                     class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg sharepoint-bg">
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
-                        <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">After Effects</h4>
-                        <p>J'ai eu l'occasion de faire une animation de SVG avec. Je compte monter en puissance dessus
-                            d'ici la fin de l'année</p>
+                        <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">SharePoint</h4>
+                        <p>J'ai travaillé à mettre en place une SharePoint avec des sous-sites et une hiérarchie complexe</p>
+                        <p>Grace à ça j'ai pu mettre en place des bibliothèques reliées sans que les utilisateurs aient accès à des données sensibles.</p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
-                                <small>Maitrise à 40%</small>
+                                <small>Maitrise à 60%</small>
                             </li>
                         </ul>
                     </div>
@@ -726,7 +761,7 @@
                 style="font-size: 6rem;">travel_explore</span>
         </p>
         <h3 class="text-gradient-grey text-uppercase fw-bold  text-center ">
-            Ce que je désire apprendre</h3>
+            Ce que je souhaiterai apprendre</h3>
         <p class="text-muted text-center fst-italic h5">Dans l'année qui vient</p>
         <hr class="w-50 mx-auto">
 
@@ -763,14 +798,201 @@
 
     </div>
 
-    <div class="b-example-divider"></div>
 
 
-    <div class="container-fluid px-4 py-5" id="custom-cards">
+
+    <div class="b-example-divider "></div>
+
+
+
+    <!-- VALEUR AJOUTEE -->
+    <div class="container px-4 py-5" id="value">
+
+        <h2 class="pb-2 border-bottom-gradient h1 fw-bold text-uppercase container text-gradient">
+            <span class="text-gradient pb-5">Ma valeur ajoutée</span></h2>
+
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-4 pb-5 mt-5">
+
+            <div class="col d-flex align-items-start ">
+                <span class="material-icons-outlined text-gradient me-3 icon-value ">settings_suggest</span>
+                <div>
+                    <h3 class="fw-bold mb-0 h4 pb-3">L'automatisation</h3>
+                    <p>J'optimise ou autmatise toujours toutes les actions rébarbatives du quotidien.</p>
+                    <p>Je me suis d'ailleurs mis à la programmation en faisant des outils maison pour répondre à mes
+                        besoins et à ceux des mes collègues.</p>
+                </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+                <span class="material-icons-outlined text-gradient me-3 icon-value">connect_without_contact</span>
+                <div>
+                    <h3 class="fw-bold mb-0 h4 pb-3">Le contact client</h3>
+                    <p>De formation initiale commerciale, je peux interagir facilement avec les clients.</p>
+                    <p>Grace à mon calme on m'a toujours eu l'habitude de me laisser gérer les clients : en colère,
+                        difficiles ou ceux qui s'éparpillent.</p>
+                </div>
+
+            </div>
+
+            <div class="col d-flex align-items-start">
+                <span class="material-icons-outlined text-gradient me-3 icon-value">all_inbox</span>
+                <div>
+                    <h3 class="fw-bold mb-0 h4 pb-3">L'organisation</h3>
+                    <p>Mes amis se moquent de moi car : il faut prendre rendez-vous avec moi, que je fais des tableaux
+                        de qui amène quoi avant un weekend et que j'ai toujours accès à tous mes documents à tout
+                        moment.</p>
+                    <p>Par exemple je me suis fait un <a target="_blank"
+                            href="https://1drv.ms/u/s!ArhQFZ2X-wAyhBmJ5xKo6qY0o5Zw" class="text-muted">OneNote pour y
+                            ranger et organiser mes connaissances</a></p>
+                </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+                <span class="material-icons-outlined text-gradient me-3 icon-value">hail</span>
+
+                <div>
+                    <h3 class="fw-bold mb-0 h4 pb-3">Ma volonté</h3>
+                    <p>Travailler sans relache jusqu'à atteindre mes objectifs est l'une de mes caractéristiques
+                        principales.</p>
+                    <p>Je n'ai pas attendu d'avoir des cours ou de l'aide pour me lancer dans la programmation. <span
+                            class="fst-italic">Si le train ne passe pas, alors j'en fabrique un.</span> </p>
+                </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+                <span class="material-icons-outlined text-gradient me-3 icon-value">cleaning_services</span>
+
+                <div>
+                    <p class="fw-bold mb-0 h4 pb-3">Pas le ménage <span class="fs-6 fw-light">d'après ma
+                            femme</span> </p>
+                    <i class="far fa-digging"></i>
+                    <p>Mais selon mes standards c'est tout à fait acceptable 😁</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- PROJETS REALISES -->
+    <div class="b-example-divider "></div>
+
+
+    <div class="container py-5" id="projects">
 
         <h2 class="pb-2 border-bottom-gradient h1 fw-bold text-uppercase container text-gradient " id="competences">
-            <span class="text-gradient">Ma valeur ajoutée</span></h2>
+            <span class="text-gradient pb-5">Projets réalisés</span></h2>
 
+        <div
+            class="container row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 align-items-stretch gy-5 gx-3 gx-sm-5 py-5 mx-auto">
+
+            <div class="col d-flex flex-column flex-md-row align-content-center justify-content-center">
+                <img src="img/GBAF-logo.jpg" alt="GBAF"
+                    class="icon-learn align-self-center align-self-md-start mb-3 mb-md-1 ">
+                <div class=" mx-md-4">
+                    <h3 class="h2 align-self-center">Extranet GBAF</h3>
+                    <p>Il s'agit d'un projet d'extranet bancaire réalisé entièrement à la main dans le cadre d'un cour
+                        OpenClassRooms.</p>
+                    <p>Pour réaliser ce projet j'ai utilisé les langages&nbsp;: HTML, CSS, PHP, MySQL et Javascript.</p>
+                    <div class="d-flex justify-content-between">
+                        <p><a class="text-gradient" target="_blank"
+                                href="http://gbaf.raphael-huet-de-froberville.fr/connect.php">Projet en ligne</a></p>
+                        <p><a class="text-gradient" target="_blank" href="https://github.com/Nabow/GBAF-extranet">Lien
+                                GitHub</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex flex-column flex-md-row align-content-center justify-content-center">
+                <img src="img/ustainfo.png" alt="usta-info-magasin-informatique-bayonne"
+                    class="icon-learn align-self-center align-self-md-start mb-3 mb-md-1 ">
+                <div class=" mx-md-4 ">
+                    <h3 class="h2 align-self-center">Usta Info</h3>
+                    <p>C'est une boutique de téléphonie située à Ustaritz</p>
+                    <p>C'est un projet optimisé pour le SEO et réalisé avec WordPress</p>
+                    <div class="d-flex justify-content-between">
+                        <p><a class="text-gradient" target="_blank" href="https://usta-info.fr/">Site d'Usta-Info</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex flex-column flex-md-row align-content-center justify-content-center">
+                <img src="img/Idea-Bots-Logo-carre.jpg" alt="Idea-Bots"
+                    class="icon-learn align-self-center align-self-md-start mb-3 mb-md-1 ">
+                <div class=" mx-md-4">
+                    <h3 class="h2 align-self-center">Idea Bots</h3>
+                    <p>Projet réalisé avec WordPress et Divi pour donner au client de l'autonomie dans la modification future du site</p>
+                    <div class="d-flex justify-content-between">
+                        <p><a class="text-gradient" target="_blank"
+                                href="https://idea-bots.fr/">Site d'Idea-Bots</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex flex-column flex-md-row align-content-center justify-content-center">
+                <img src="img/chalets-et-caviar.png" alt="chalets-et-caviar"
+                    class="icon-learn align-self-center align-self-md-start mb-3 mb-md-1 ">
+                <div class=" mx-md-4">
+                    <h3 class="h2 align-self-center">Chalets et Caviar</h3>
+                    <p>Site Web conçu avec WordPress et Elementor, dans le cadre d'un cours OpenClassRooms.</p>
+                    <div class="d-flex justify-content-between">
+                        <p><a class="text-gradient" target="_blank"
+                                href="https://chalets-et-caviar.fr/">Site de Chalets et Caviar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex flex-column flex-md-row align-content-center justify-content-center">
+                <img src="img/mauni-yoga.png" alt="mauni-yoga-hendaye"
+                    class="icon-learn align-self-center align-self-md-start mb-3 mb-md-1 ">
+                <div class=" mx-md-4">
+                    <h3 class="h2 align-self-center">Mauni Yoga</h3>
+                    <p>Site qui a necéssité un gros travail graphique préalable scan, détourage et vectorisations des dessins du client pour les intégrer dans le site.</p>
+                    <p>Ce site créé avec WordPress et Elementor a été optimisé pour le SEO.</p>
+                    <div class="d-flex justify-content-between">
+                        <p><a class="text-gradient" target="_blank"
+                                href="https://mauni-yoga.fr/">Site de Mauni Yoga</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex flex-column flex-md-row align-content-center justify-content-center">
+                <img src="img/cabinet-klein.png" alt="cabinet-klein"
+                    class="icon-learn align-self-center align-self-md-start mb-3 mb-md-1 ">
+                <div class=" mx-md-4">
+                    <h3 class="h2 align-self-center">Cabinet Klein</h3>
+                    <p>C'est un site que j'ai réalisé conjointement avec ma femme.</p>
+                    <p>Elle s'est concentrée sur la partie SEO et moi sur la partie intégration</p>
+                    <div class="d-flex justify-content-between">
+                        <p><a class="text-gradient" target="_blank"
+                                href="https://www.cabinetklein.com/">Site du Cabinet Klein</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex flex-column flex-md-row align-content-center justify-content-center">
+                <img src="SVG/logo-raphael-huet-de-froberville.svg" alt="projets-graphiques"
+                    class="icon-learn align-self-center align-self-md-start mb-3 mb-md-1 ">
+                <div class=" mx-md-4">
+                    <h3 class="h2 align-self-center">Projets graphiques divers</h3>
+                    <p>Dans ce dossier vous trouverez un échantillon de différents projets graphiques que j'ai pu réaliser.</p>
+                    <p>Ils ont été réalisés avec Illustrator, Photoshop et/ou Indesign.</p>
+                    <div class="d-flex justify-content-between">
+                        <p><a class="text-gradient" target="_blank"
+                                href="https://www.dropbox.com/sh/13x76r8p1hxrbn9/AACbYL8dSJHIHtIS8hdbweX3a?dl=0">Projets graphiques de Raphael</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
 
     </div>
 

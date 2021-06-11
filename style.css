@@ -78,188 +78,196 @@
 }
 
 .HTML-bg {
-  background: center / 90% no-repeat url('SVG/HTML5-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/html5-flat.svg');
   /* transition: 11.2s ease; */
 }
 .HTML-bg:hover {
-  background: center / 90% no-repeat url('SVG/HTML5-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/html5-3d.svg');
 }
 
 
 .CSS-bg {
-  background: center / 90% no-repeat url('SVG/css3-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/css3-flat.svg');
 }
 .CSS-bg:hover {
-  background: center / 90% no-repeat url('SVG/css3-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/css3-3d.svg');
 }
 
 
 .sass-bg {
-  background: center / 90% no-repeat url('SVG/sass-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/sass-flat.svg');
 }
 .sass-bg:hover {
-  background: center / 90% no-repeat url('SVG/sass-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/sass-3d.svg');
 }
 
 
 .PHP-bg {
-  background: center / 90% no-repeat url('SVG/PHP-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/php-flat.svg');
 }
 .PHP-bg:hover {
-  background: center / 90% no-repeat url('SVG/PHP-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/php-3d.svg');
 }
 
 
 .mysql-bg {
-  background: center / 90% no-repeat url('SVG/mysql-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/mysql-flat.svg');
 }
 .mysql-bg:hover {
-  background: center / 90% no-repeat url('SVG/mysql-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/mysql-3d.svg');
 }
 
 
 .javascript-bg {
-  background: center / 90% no-repeat url('SVG/javascript-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/javascript-flat.svg');
 }
 .javascript-bg:hover {
-  background: center / 90% no-repeat url('SVG/javascript-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/javascript-3d.svg');
 }
 
 
 .bootstrap-bg {
-  background: center / 90% no-repeat url('SVG/bootstrap-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/bootstrap-flat.svg');
 }
 .bootstrap-bg:hover {
-  background: center / 90% no-repeat url('SVG/bootstrap-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/bootstrap-3d.svg');
 }
 
 
 .git-bg {
-  background: center / 90% no-repeat url('SVG/git-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/git-flat.svg');
 }
 .git-bg:hover {
-  background: center / 90% no-repeat url('SVG/git-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/git-3d.svg');
 }
 
 
 .wordpress-bg {
-  background: center / 90% no-repeat url('SVG/wordpress-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/wordpress-flat.svg');
 }
 .wordpress-bg:hover {
-  background: center / 90% no-repeat url('SVG/wordpress-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/wordpress-3d.svg');
 }
 
 
 .github-bg {
-  background: center / 90% no-repeat url('SVG/github-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/github-flat.svg');
 }
 .github-bg:hover {
-  background: center / 90% no-repeat url('SVG/github-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/github-3d.svg');
 }
 
 
 
 .elementor-bg {
-  background: center / 90% no-repeat url('SVG/elementor-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/elementor-flat.svg');
 }
 .elementor-bg:hover {
-  background: center / 90% no-repeat url('SVG/elementor-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/elementor-3d.svg');
 }
 
 
 .divi-bg {
-  background: center / 90% no-repeat url('SVG/divi-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/divi-flat.svg');
 }
 .divi-bg:hover {
-  background: center / 90% no-repeat url('SVG/divi-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/divi-3d.svg');
 }
 
 
 .woocommerce-bg {
-  background: center / 90% no-repeat url('SVG/woocommerce-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/woocommerce-flat.svg');
 }
 .woocommerce-bg:hover {
-  background: center / 90% no-repeat url('SVG/woocommerce-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/woocommerce-3d.svg');
 }
 
 
 .illustrator-bg {
-  background: center / 90% no-repeat url('SVG/illustrator-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/illustrator-flat.svg');
 }
 .illustrator-bg:hover {
-  background: center / 90% no-repeat url('SVG/illustrator-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/illustrator-3d.svg');
 }
 
 
 .photoshop-bg {
-  background: center / 90% no-repeat url('SVG/photoshop-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/photoshop-flat.svg');
 }
 .photoshop-bg:hover {
-  background: center / 90% no-repeat url('SVG/photoshop-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/photoshop-3d.svg');
 }
 
 
 .indesign-bg {
-  background: center / 90% no-repeat url('SVG/indesign-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/indesign-flat.svg');
 }
 .indesign-bg:hover {
-  background: center / 90% no-repeat url('SVG/indesign-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/indesign-3d.svg');
 }
 
 
 .premiere-pro-bg {
-  background: center / 90% no-repeat url('SVG/premiere-pro-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/premiere-pro-flat.svg');
 }
 .premiere-pro-bg:hover {
-  background: center / 90% no-repeat url('SVG/premiere-pro-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/premiere-pro-3d.svg');
 }
 
 
 .after-effects-bg {
-  background: center / 90% no-repeat url('SVG/after-effects-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/after-effects-flat.svg');
 }
 .after-effects-bg:hover {
-  background: center / 90% no-repeat url('SVG/after-effects-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/after-effects-3d.svg');
 }
 
 
 .vba-bg {
-  background: center / 90% no-repeat url('SVG/vba-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/vba-flat.svg');
 }
 .vba-bg:hover {
-  background: center / 90% no-repeat url('SVG/vba-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/vba-3d.svg');
 }
 
 
 .access-bg {
-  background: center / 90% no-repeat url('SVG/access-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/access-flat.svg');
 }
 .access-bg:hover {
-  background: center / 90% no-repeat url('SVG/access-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/access-3d.svg');
 }
 
 
 .excel-bg {
-  background: center / 90% no-repeat url('SVG/excel-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/excel-flat.svg');
 }
 .excel-bg:hover {
-  background: center / 90% no-repeat url('SVG/excel-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/excel-3d.svg');
 }
 
 
 .power-bi-bg {
-  background: center / 90% no-repeat url('SVG/power-bi-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/power-bi-flat.svg');
 }
 .power-bi-bg:hover {
-  background: center / 90% no-repeat url('SVG/power-bi-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/power-bi-3d.svg');
 }
 
 
 .sharepoint-bg {
-  background: center / 90% no-repeat url('SVG/sharepoint-flat.svg');
+  background: center / 90% 90% no-repeat url('SVG/sharepoint-flat.svg');
 }
 .sharepoint-bg:hover {
-  background: center / 90% no-repeat url('SVG/sharepoint-3d.svg');
+  background: center / 90% 90% no-repeat url('SVG/sharepoint-3d.svg');
+}
+
+
+.google-bg {
+  background: center / 90% 90% no-repeat url('SVG/google-flat.svg');
+}
+.google-bg:hover {
+  background: center / 90% 90% no-repeat url('SVG/google-3d.svg');
 }
 
 @keyframes bounce{0%, 100%{-webkit-transform:translateY(-20px);transform:translateY(-20px);}
@@ -289,4 +297,9 @@
   height: auto;
   max-width: 6rem;
   object-fit: contain;
+}
+
+.icon-value{
+  font-size: 4rem !important;
+
 }
