@@ -9,7 +9,7 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="features.css">
     <link rel="stylesheet" href="style.css">
-    <script src="navbar.js"></script>
+    <script src="scroll.js"></script>
     <script src="https://kit.fontawesome.com/9fdc431880.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <style>
@@ -45,7 +45,9 @@
                 <a class="navbar-brand align-content-center" href="#">
                     Raphael Huet de Froberville
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            </div>
+            <div class="">
+                <button class="navbar-toggler ms-auto me-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -54,7 +56,7 @@
 
             <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
                 <div class="navbar-nav me-4">
-                    <a class="nav-link active text-end" aria-current="page" href="#presentation">Présentation</a>
+                    <a class="nav-link text-end" aria-current="page" href="#presentation">Présentation</a>
                     <a class="nav-link text-end" href="#competences">Compétences</a>
                     <a class="nav-link text-end" href="#value">Ma valeur ajoutée</a>
                     <a class="nav-link text-end" href="#projects">Projets réalisés</a>
@@ -163,7 +165,7 @@
 
                     <div>
                         <h3 class="fw-bold mb-0 h4 pb-3">M'écrire</h3>
-                        <p><a href="mailto:rdefrob@gmail.com" class="text-muted">rdefrob@gmail.com</a></p>
+                        <p><a href="mailto:rdefrob@gmail.com" class="text-gradient">rdefrob@gmail.com</a></p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
@@ -171,13 +173,58 @@
 
                     <div>
                         <h3 class="fw-bold mb-0 h4 pb-3">M'appeler</h3>
-                        <p><a class="text-muted" href="tel:+33675455516">06 75 45 55 16</a> <br>Je
+                        <p><a class="text-gradient" href="tel:+33675455516">06 75 45 55 16</a> <br>Je
                             suis disponible à tous moments, sauf quand je ne
                             peux pas répondre 😜</p>
                     </div>
                 </div>
             </div>
+            
+            
+                        <p class="text-center mb-0">
+                            <span class="material-icons-outlined text-gradient-grey moving pt-5" style="font-size: 6rem;">school</span>
+                        </p>
+                        <h3 class="text-gradient-grey text-uppercase fw-bold  text-center ">
+                            Alternance</h3>
+                        <hr class="w-50 mx-auto">
 
+
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4 mt-5">
+                            <div class="col d-flex align-items-start ">
+                                <span class="material-icons-outlined text-gradient me-3 fs-1">update</span>
+                                <div>
+                                    <h3 class="fw-bold mb-0 h4 pb-3">Rythme</h3>
+                                    <p><b>Semaine paire</b> : 4j en Entreprise / 1j de formation</p>
+                                    <p><b>Semaine impaire</b> : 3j en Entreprise / 2j de formation</p>
+                                </div>
+                            </div>
+                            <div class="col d-flex align-items-start">
+                                <span class="material-icons-outlined text-gradient me-3 fs-1">timer</span>
+                                <div>
+                                    <h3 class="fw-bold mb-0 h4 pb-3">Début et durée</h3>
+                                    <p><b>Quand vous le désirez</b> à partir du mois d'aout</p>
+                                    <p>Pour une durée de <b>12 mois</b></p>
+                                </div>
+                            </div>
+                            <div class="col d-flex align-items-start">
+                                <span class="material-icons-outlined text-gradient me-3 fs-1">drive_file_rename_outline</span>
+                                <div>
+                                    <h3 class="fw-bold mb-0 h4 pb-3">Type de contrat</h3>
+                                    <p>Ayant 29ans je suis éligible aux contrat d'apprentissage et au contrat de professionnalisation</p>
+                                    <p><a target="_blank" class="text-gradient" href="https://www.alternance.emploi.gouv.fr/portail_alternance/jcms/recleader_6113/decouvrir-l-alternance">Plus d'information sur l'alternance</a></p>
+                                </div>
+                            </div>
+                            <div class="col d-flex align-items-start">
+                                <span class="material-icons-outlined text-gradient me-3 fs-1">payments</span>
+            
+                                <div>
+                                    <h3 class="fw-bold mb-0 h4 pb-3">Aides</h3>
+                                    <p>Je suis éligible aux aides à l'embauche d'un alternant de <span class="text-gradient">8&nbsp;000€</span>.</p>
+                                    <p>Avec un contrat de professionnalisation j'aurais un coût moyen de <b>927€/mois</b></p>
+                                </div>
+                            </div>
+                            
+                        </div>
         </div>
 
     </div>
@@ -193,12 +240,12 @@
     <div class="container-fluid px-4 py-5" id="competences">
         <h2 class="pb-2 border-bottom-gradient h1 fw-bold text-uppercase container text-gradient ">
             <span class="text-gradient">Compétences</span></h2>
-            <p class="text-center fw-light">Je vais essayer ci dessous de vous indiquer un niveau niveau de maîtrise des différents languages/logigiels. <br>Mais il est très difficile d'estimer pour moi le chemin restant à parcourir alors que je en suis pas arrivé au bout.</p>
+        <p class="text-center fw-light">Je vais essayer ci dessous de vous indiquer un niveau niveau de maîtrise des
+            différents languages/logigiels. <br>Mais il est très difficile d'estimer pour moi le chemin restant à
+            parcourir alors que je en suis pas arrivé au bout.</p>
 
         <p class="text-center mt-4 mb-0">
-
             <span class="material-icons-outlined text-gradient-grey moving pt-5" style="font-size: 6rem;">code</span>
-
         </p>
         <h3 class="text-gradient-grey text-uppercase fw-bold  text-center ">
             Programmation / FrameWork / Builder</h3>
@@ -484,8 +531,7 @@
 
 
             <div class="col">
-                <div
-                    class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg google-bg">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg google-bg">
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility ">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">SEO</h4>
@@ -717,7 +763,8 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">Power Bi</h4>
-                        <p>Ce logiciel fait tomber Excel dans l'age de pierre sur la création et le rafraichissement de tableaux de bord.</p>
+                        <p>Ce logiciel fait tomber Excel dans l'age de pierre sur la création et le rafraichissement de
+                            tableaux de bord.</p>
                         <p>J'ai crée un tableau de bord </p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
@@ -737,8 +784,10 @@
 
                     <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1 card-visibility">
                         <h4 class=" mt-2 mb-5 fs-2 lh-1 fw-bold">SharePoint</h4>
-                        <p>J'ai travaillé à mettre en place une SharePoint avec des sous-sites et une hiérarchie complexe</p>
-                        <p>Grace à ça j'ai pu mettre en place des bibliothèques reliées sans que les utilisateurs aient accès à des données sensibles.</p>
+                        <p>J'ai travaillé à mettre en place une SharePoint avec des sous-sites et une hiérarchie
+                            complexe</p>
+                        <p>Grace à ça j'ai pu mettre en place des bibliothèques reliées sans que les utilisateurs aient
+                            accès à des données sensibles.</p>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center ms-auto">
                                 <span class="material-icons-outlined me-2">trending_up</span>
@@ -818,8 +867,7 @@
                 <div>
                     <h3 class="fw-bold mb-0 h4 pb-3">L'automatisation</h3>
                     <p>J'optimise ou autmatise toujours toutes les actions rébarbatives du quotidien.</p>
-                    <p>Je me suis d'ailleurs mis à la programmation en faisant des outils maison pour répondre à mes
-                        besoins et à ceux des mes collègues.</p>
+                    <p>Je me suis d'ailleurs mis à la programmation en faisant des outils maison pour répondre à mes besoins et à ceux des mes collègues.</p>
                 </div>
             </div>
 
@@ -828,8 +876,7 @@
                 <div>
                     <h3 class="fw-bold mb-0 h4 pb-3">Le contact client</h3>
                     <p>De formation initiale commerciale, je peux interagir facilement avec les clients.</p>
-                    <p>Grace à mon calme on m'a toujours eu l'habitude de me laisser gérer les clients : en colère,
-                        difficiles ou ceux qui s'éparpillent.</p>
+                    <p>Grace à mon calme on m'a toujours eu l'habitude de me laisser gérer les clients : en colère, difficiles ou ceux qui s'éparpillent.</p>
                 </div>
 
             </div>
@@ -838,12 +885,9 @@
                 <span class="material-icons-outlined text-gradient me-3 icon-value">all_inbox</span>
                 <div>
                     <h3 class="fw-bold mb-0 h4 pb-3">L'organisation</h3>
-                    <p>Mes amis se moquent de moi car : il faut prendre rendez-vous avec moi, que je fais des tableaux
-                        de qui amène quoi avant un weekend et que j'ai toujours accès à tous mes documents à tout
-                        moment.</p>
+                    <p>Mes amis se moquent de moi car : il faut prendre rendez-vous avec moi, que je fais des tableaux de qui amène quoi avant un weekend et que j'ai toujours accès à tous mes documents à tout moment.</p>
                     <p>Par exemple je me suis fait un <a target="_blank"
-                            href="https://1drv.ms/u/s!ArhQFZ2X-wAyhBmJ5xKo6qY0o5Zw" class="text-muted">OneNote pour y
-                            ranger et organiser mes connaissances</a></p>
+                            href="https://1drv.ms/u/s!ArhQFZ2X-wAyhBmJ5xKo6qY0o5Zw" class="text-muted">OneNote pour y ranger et organiser mes connaissances</a></p>
                 </div>
             </div>
 
@@ -852,8 +896,7 @@
 
                 <div>
                     <h3 class="fw-bold mb-0 h4 pb-3">Ma volonté</h3>
-                    <p>Travailler sans relache jusqu'à atteindre mes objectifs est l'une de mes caractéristiques
-                        principales.</p>
+                    <p>Travailler sans relache jusqu'à atteindre mes objectifs est l'une de mes caractéristiques principales.</p>
                     <p>Je n'ai pas attendu d'avoir des cours ou de l'aide pour me lancer dans la programmation. <span
                             class="fst-italic">Si le train ne passe pas, alors j'en fabrique un.</span> </p>
                 </div>
@@ -898,14 +941,12 @@
                     class="icon-learn align-self-center align-self-md-start mb-3 mb-md-1 ">
                 <div class=" mx-md-4">
                     <h3 class="h2 align-self-center">Extranet GBAF</h3>
-                    <p>Il s'agit d'un projet d'extranet bancaire réalisé entièrement à la main dans le cadre d'un cour
-                        OpenClassRooms.</p>
+                    <p>Il s'agit d'un projet d'extranet bancaire réalisé entièrement à la main dans le cadre d'un cour OpenClassRooms.</p>
                     <p>Pour réaliser ce projet j'ai utilisé les langages&nbsp;: HTML, CSS, PHP, MySQL et Javascript.</p>
                     <div class="d-flex justify-content-between">
                         <p><a class="text-gradient" target="_blank"
                                 href="http://gbaf.raphael-huet-de-froberville.fr/connect.php">Projet en ligne</a></p>
-                        <p><a class="text-gradient" target="_blank" href="https://github.com/Nabow/GBAF-extranet">Lien
-                                GitHub</a></p>
+                        <p><a class="text-gradient" target="_blank" href="https://github.com/Nabow/GBAF-extranet">Lien GitHub</a></p>
                     </div>
                 </div>
             </div>
@@ -918,7 +959,8 @@
                     <p>C'est une boutique de téléphonie située à Ustaritz</p>
                     <p>C'est un projet optimisé pour le SEO et réalisé avec WordPress</p>
                     <div class="d-flex justify-content-between">
-                        <p><a class="text-gradient" target="_blank" href="https://usta-info.fr/">Site d'Usta-Info</a></p>
+                        <p><a class="text-gradient" target="_blank" href="https://usta-info.fr/">Site d'Usta-Info</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -930,8 +972,7 @@
                     <h3 class="h2 align-self-center">Idea Bots</h3>
                     <p>Projet réalisé avec WordPress et Divi pour donner au client de l'autonomie dans la modification future du site</p>
                     <div class="d-flex justify-content-between">
-                        <p><a class="text-gradient" target="_blank"
-                                href="https://idea-bots.fr/">Site d'Idea-Bots</a>
+                        <p><a class="text-gradient" target="_blank" href="https://idea-bots.fr/">Site d'Idea-Bots</a>
                     </div>
                 </div>
             </div>
@@ -943,8 +984,7 @@
                     <h3 class="h2 align-self-center">Chalets et Caviar</h3>
                     <p>Site Web conçu avec WordPress et Elementor, dans le cadre d'un cours OpenClassRooms.</p>
                     <div class="d-flex justify-content-between">
-                        <p><a class="text-gradient" target="_blank"
-                                href="https://chalets-et-caviar.fr/">Site de Chalets et Caviar</a>
+                        <p><a class="text-gradient" target="_blank" href="https://chalets-et-caviar.fr/">Site de Chalets et Caviar</a>
                     </div>
                 </div>
             </div>
@@ -954,11 +994,11 @@
                     class="icon-learn align-self-center align-self-md-start mb-3 mb-md-1 ">
                 <div class=" mx-md-4">
                     <h3 class="h2 align-self-center">Mauni Yoga</h3>
-                    <p>Site qui a necéssité un gros travail graphique préalable scan, détourage et vectorisations des dessins du client pour les intégrer dans le site.</p>
+                    <p>Site qui a necéssité un gros travail graphique préalable scan, détourage et vectorisations des
+                        dessins du client pour les intégrer dans le site.</p>
                     <p>Ce site créé avec WordPress et Elementor a été optimisé pour le SEO.</p>
                     <div class="d-flex justify-content-between">
-                        <p><a class="text-gradient" target="_blank"
-                                href="https://mauni-yoga.fr/">Site de Mauni Yoga</a>
+                        <p><a class="text-gradient" target="_blank" href="https://mauni-yoga.fr/">Site de Mauni Yoga</a>
                     </div>
                 </div>
             </div>
@@ -971,8 +1011,8 @@
                     <p>C'est un site que j'ai réalisé conjointement avec ma femme.</p>
                     <p>Elle s'est concentrée sur la partie SEO et moi sur la partie intégration</p>
                     <div class="d-flex justify-content-between">
-                        <p><a class="text-gradient" target="_blank"
-                                href="https://www.cabinetklein.com/">Site du Cabinet Klein</a>
+                        <p><a class="text-gradient" target="_blank" href="https://www.cabinetklein.com/">Site du Cabinet
+                                Klein</a>
                     </div>
                 </div>
             </div>
@@ -982,11 +1022,13 @@
                     class="icon-learn align-self-center align-self-md-start mb-3 mb-md-1 ">
                 <div class=" mx-md-4">
                     <h3 class="h2 align-self-center">Projets graphiques divers</h3>
-                    <p>Dans ce dossier vous trouverez un échantillon de différents projets graphiques que j'ai pu réaliser.</p>
+                    <p>Dans ce dossier vous trouverez un échantillon de différents projets graphiques que j'ai pu
+                        réaliser.</p>
                     <p>Ils ont été réalisés avec Illustrator, Photoshop et/ou Indesign.</p>
                     <div class="d-flex justify-content-between">
                         <p><a class="text-gradient" target="_blank"
-                                href="https://www.dropbox.com/sh/13x76r8p1hxrbn9/AACbYL8dSJHIHtIS8hdbweX3a?dl=0">Projets graphiques de Raphael</a>
+                                href="https://www.dropbox.com/sh/13x76r8p1hxrbn9/AACbYL8dSJHIHtIS8hdbweX3a?dl=0">Projets
+                                graphiques de Raphael</a>
                     </div>
                 </div>
             </div>

@@ -68,8 +68,16 @@
 }
 
 .card-visibility {
-  opacity: 0;
-  transition: opacity 0.2s ease;
+  opacity: 1;
+  background: linear-gradient(rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.9));
+}
+
+
+@media only screen and (min-width: 768px) {
+  .card-visibility {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
 }
 
 .card-visibility:hover {
